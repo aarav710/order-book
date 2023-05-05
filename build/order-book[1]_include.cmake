@@ -1,0 +1,5 @@
+if(EXISTS "/Users/aaravjain/Desktop/order-book/build/order-book[1]_tests.cmake")
+  include("/Users/aaravjain/Desktop/order-book/build/order-book[1]_tests.cmake")
+else()
+  add_test(order-book_NOT_BUILT order-book_NOT_BUILT)
+endif()
